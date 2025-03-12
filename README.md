@@ -36,6 +36,14 @@ Classification:
 * Punctuation
 * Special characters
 *  Constants
+
+_Lexical Errors:_ A lexical error happens when the lexer finds an invalid sequence of characters that cannot be classified as an actual token.
+
+_Finite Automata:_ A finite automata is a machine that recognizes patterns by processing symbols step by step, and accepting or rejecting this input based on the final state. 
+
+_Finite Automata in Token Recognition:_ Because the lexical structure of most programming languages can be specified by a regular language, lexical analyzers often rely on finite automata.
+This is achieved by transforming the regular expressions that define all possible tokens into a finite automaton.
+
 ## Body
 Es la descripción de la implementación realizada en el lenguaje de programación,
 así como las pruebas realizadas para obtener los resultados. Es importante resaltar lo
